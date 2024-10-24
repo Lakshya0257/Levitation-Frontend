@@ -203,7 +203,7 @@ const ProductManagement: React.FC = () => {
 
         const response = await axios.request({
           method: 'get',
-          url: 'http://localhost:4000/api/generate-invoice',
+          url: 'https://levitation.api.corevision.live/api/generate-invoice',
           headers: {
               'Authorization': `Bearer ${token}`
           },
