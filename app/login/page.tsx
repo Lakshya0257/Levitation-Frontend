@@ -120,13 +120,13 @@ export default function LoginPage() {
         </div>
       <div className="w-full max-w-[1000px] flex rounded-lg overflow-hidden">
         {/* Left side - Image */}
-        <div className="relative hidden md:block w-1/2 h-[600px]">
+        <div className="relative hidden md:block w-[40%] h-[600px] rounded-3xl">
           <Image 
-            src="/api/placeholder/500/600"
+            src="/image.png"
             alt="Office space"
             layout="fill"
-            objectFit="cover"
-            className="rounded-l-lg"
+            // objectFit="fit"
+            className="rounded-3xl"
           />
         </div>
 
